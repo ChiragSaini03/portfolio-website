@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{ 
+    /* background-image: url('bg.jpeg'); 
+    background-size: cover; */
+    /* overflow:hidden; */
+    background-color: #ffffff;
+}
+.navbar{
+    width: 100%;
+    padding-top: 2px;
+    position: sticky;   /* fixed */
+    z-index: 1;
+    top: 0;
+    overflow: hidden;
+    justify-content:space-between;
+    background: linear-gradient(
+90deg
+,#e0977b,#e0a799 60%);
+}
+.menuitems{
+    width:90%;
+    float:CENTER;
+    padding-left: 50px;
+}
+.main:hover {
+    background: #c98f8b;
+    color: #ffff;
+  }
+.main{
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Lucida";
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 30px;
+}
+.main.myhobby{
+    background-color: #c4756f;
+}
+.yourname{
+    font-weight: bold;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.imghobbies{
+    width:70px;
+    height:70px;
+    border-radius: 4px;
+    display:inline-block; 
+}
+.typepimg{
+    display:inline-block;
+    padding: 60px 60px;
+    text-align: center;
+}
+.hobby_type{
+    width:120px;
+    font-size: 35px;
+    font-family: "Lucida consolas";
+}
+.hobbies_03{
+    display: inline-block;
+    padding: 30px 30px;
+    justify-content: center;
+    padding-top: 80px;
+}
+.hobbies_01{
+    text-align: center;
+}
